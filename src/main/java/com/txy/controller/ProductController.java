@@ -20,7 +20,7 @@ public class ProductController{
     @Resource
     private ProductService productService;
 
-    //查询所有商品
+    //查询所有商品txy
     @RequestMapping()
     public String select(Model model){
         List<Product> productList=null;
